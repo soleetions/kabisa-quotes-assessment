@@ -1,0 +1,19 @@
+type Quote {
+    id: ID!
+    quote: String!
+    author: String!
+}
+
+type RankedQuote {
+    quote: Quote!
+    votes: Int!
+}
+
+type Query {
+    random: Quote
+    ranking: [RankedQuote!]!
+}
+
+type Mutation {
+    vote(id: ID!): Boolean!
+}

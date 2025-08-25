@@ -1,0 +1,18 @@
+spring:
+  application.name: quotes
+  graphql:
+    http:
+      path: /api/graphql
+    graphiql:
+      enabled: true
+      path: /docs/graphiql
+
+quotes:
+  dummy-json:
+    url: https://dummyjson.com/quotes
+
+springdoc:
+  api-docs:
+    path: /docs/rest/api-docs
+  swagger-ui:
+    path: /docs/rest/swagger-ui.html
