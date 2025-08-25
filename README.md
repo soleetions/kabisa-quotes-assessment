@@ -43,7 +43,8 @@ The `quotes-rest` module contains Cucumber tests to test the REST API and GraphQ
 
 To run the Cucumber tests, you can use the following command:
 
-```./mvnw clean test -pl quotes-test
+```
+./mvnw clean test -pl quotes-test
 ```
 
 Note: The Cucumber tests require the service to be running on `http://localhost:8080` and a running internet connection to reach the Dummy JSON API.<br/>
